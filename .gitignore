@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# API Keys — NEVER commit these
+.env
+*.env
+secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary / cache
+*.log
+*.tmp
+tmp/
+temp/
+
+# Large media files (upload at runtime, don't commit)
+assets/*.mp4
+assets/*.avi
+assets/*.mov
+assets/*.wav
+assets/*.mp3
+assets/*.m4a
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+.runtime-deps/
